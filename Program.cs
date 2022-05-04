@@ -1,6 +1,4 @@
-﻿//Написать программу, которая из имеющегося массива строк формирует массив строк, длинна которых меньше либо равна 3 символа.
-
-string[] arrayOfStrings = { "Привет", "мир", "$)", "дом", "корабль", "морж" };
+﻿string[] arrayOfStrings = { "Привет", "мир", "$)", "дом", "корабль", "морж" };
 
 int length = NewArrayLength(arrayOfStrings);
 string[] Decision = PickRelevantWords(length, arrayOfStrings);
@@ -45,6 +43,6 @@ void PrintArray(string[] array, string nameOfArray)
     {
         System.Console.Write($"{array[i]}, ");
     }
-    System.Console.WriteLine(array[array.Length - 1]);
+    System.Console.WriteLine(array[array.Length - 1] + ".");
     System.Console.WriteLine("---------");
 }
